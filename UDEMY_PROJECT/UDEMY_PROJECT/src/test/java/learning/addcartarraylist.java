@@ -18,7 +18,7 @@ public class addcartarraylist {
 	public static void main(String[] args) throws InterruptedException {
 		
 		String[] vegnames = {"Cucumber", "Brocolli", "Beetroot"};
-		System.setProperty("webdriver.chrome.driver", "D://Drivers//chromedriver-win32//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\browserdrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

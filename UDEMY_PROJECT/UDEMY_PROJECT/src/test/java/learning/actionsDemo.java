@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class actionsDemo {
 	public static void main(String args[]) {
+		System.setProperty("webdriver.chrome.driver", "C:\\browserdrivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.myntra.com/");
